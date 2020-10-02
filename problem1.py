@@ -1,7 +1,5 @@
-a = int(input("Enter a integer of width: "))
+a,c = int(input("")),int(input(""))
 
-c = int(input("Enter a integer of hight: "))
 
 for i in range(1,c + 1):
     print("*" * a)
-
