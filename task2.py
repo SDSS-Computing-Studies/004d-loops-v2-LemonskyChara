@@ -4,5 +4,7 @@ for a in nameList:
     a = input("")
     if a in nameList:
         print("That name is in the list")
+        break
     else:
         print("That name is not in the list")
+        break
