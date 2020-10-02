@@ -1,7 +1,10 @@
-a = input("Enter a name: ")
+name =""
 
-name = ("Guile", "Cammy", "Ryu", "Ken", "Chun-Li")
+nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
-for i in name:
-    if a in i:
-        print("Access grande")
+for name in nameList:
+    name = str(input("Enter a name: "))
+    if name in nameList:
+        print("That name is in the list")
+    else:
+        print("That name is not in the list")
