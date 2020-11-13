@@ -1,8 +1,9 @@
+a = str(input("Enter a name: ")).strip()
+
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
-for a in nameList:
-    a = str(input(""))
-    if a in nameList:
+for i in nameList:
+    if a == i:
         print("That name is on the list")
-    elif a not in nameList:
+    else:
         print("That name is not on the list")
